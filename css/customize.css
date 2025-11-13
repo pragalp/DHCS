@@ -1,0 +1,48 @@
+/* GOOGLE FONT  */
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Playwrite+ES+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&family=Space+Grotesk:wght@300..700&family=Varela+Round&display=swap");
+
+:root {
+  --font1: "Poppins", sans-serif;
+  --font2: "Nunito", sans-serif;
+  --font3: "Space Grotesk", sans-serif;
+  --font4: "Lexend", sans-serif;
+  --font5: "Varela Round", sans-serif;
+  --font6: "Satisfy", cursive;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+div {
+  font-family: var(--font2) !important  ;
+}
+
+.nav-link,
+a,
+span,
+small {
+  font-weight: 500 !important;
+  font-family: var(--font4) !important;
+}
+
+input,
+select,
+textarea,
+.about__description {
+  font-family: var(--font4) !important;
+}
+
+.footer__title,
+.about__font,
+.booking__title,
+button {
+  font-family: var(--font3) !important;
+}
+.title {
+  font-family: var(--font3) !important;
+}
